@@ -9,7 +9,7 @@ body{
 }
 
 
-/* Header Design  */
+/* Header Design Start*/
 .header-logo{
     height: 51px;
     width: 42px;
@@ -39,13 +39,75 @@ body{
     text-decoration: none;
     color: white;
 }
+/* Header Design End*/
 
 
-/* Section Design  */
-.top-players{
+
+/* Main Design Start */
+main{
     display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 28px;
+    width: 870px;
+}
+/* Main Design End  */
+
+
+
+/*Top Players Design Start  */
+.top-players-container{
+    margin-bottom: 30px;
+}
+#top-title{
+    margin-top: -5px;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 29px;
+}
+.player{
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 .player img{
     height: 56px;
     width: 56px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* Top Players Design End  */
+
+
+
+/* Top Blogs Design Start */
+.top-blogs-container{
+    
+}
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.blogs{
+    display: flex;
+    gap: 16px;
+}
+.blogs img{
+    width: 177px;
+    height: 117px;
+}
+.blogs-details{
+    display: flex;
+    flex-direction: column;
+    
+}
+.blogs-details h5{
+    width: 120px;
 }
