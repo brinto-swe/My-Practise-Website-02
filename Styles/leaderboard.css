@@ -1,0 +1,36 @@
+/* Body Design  */
+body{
+    font-family: sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+/* Header Design  */
+.header-logo{
+    height: 51px;
+    width: 42px;
+}
+.logo-container{
+    display: flex;
+    gap: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 94px;
+    background-color: #562EFF;
+    color: white;
+}
+.header-ul{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.header-list{
+    list-style: none;
+}
+.header-hyperlink{
+    text-decoration: none;
+    color: white;
+}
