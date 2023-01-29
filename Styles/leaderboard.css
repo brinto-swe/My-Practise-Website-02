@@ -103,11 +103,13 @@ hr{
     width: 177px;
     height: 117px;
 }
-.blogs-details{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 .blogs-details h5{
     width: 120px;
+    margin: 15px 0px 0px 0px;
 }
+.blogs-details p, a{
+    margin: 0px 0px;
+    text-decoration: none;
+}
+/* Top Blogs Design End */
