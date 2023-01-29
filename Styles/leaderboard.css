@@ -46,7 +46,9 @@ body{
 /* Main Design Start */
 main{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .container{
     background-color: #FFFFFF;
@@ -65,6 +67,7 @@ main{
 }
 #top-title{
     margin-top: -5px;
+    color: #562EFF;
 }
 .top-players{
     display: grid;
@@ -94,6 +97,7 @@ hr{
 .top-blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 28px;
 }
 .blogs{
     display: flex;
@@ -112,4 +116,24 @@ hr{
     margin: 0px 0px;
     text-decoration: none;
 }
+
+
+
 /* Top Blogs Design End */
+.courses{
+    padding: 14px;
+}
+.courses img{
+    height: 106px;
+    width: 226px;
+}
+.course-details h5{
+    width: 230px;
+    height: 23px;
+    font-size: 20px;
+}
+.course-details p a{
+    color: #ED6B4F;
+    font-size: 14px;
+    margin-top: 17px;
+}
