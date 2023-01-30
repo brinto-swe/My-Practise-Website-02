@@ -65,7 +65,7 @@ main{
 .top-players-container{
     margin-bottom: 30px;
 }
-#top-title{
+.top-title{
     margin-top: -5px;
     color: #562EFF;
 }
@@ -122,18 +122,74 @@ hr{
 /* Top Blogs Design End */
 .courses{
     padding: 14px;
+    box-shadow: 0px 0px 2px 2px rgb(201, 201, 201);
+    border-radius: 15px;
+}
+.course-article{
+    display: flex;
+    gap: 23px;
 }
 .courses img{
-    height: 106px;
-    width: 226px;
+    height: 126px;
+    width: 230px;
 }
-.course-details h5{
+#first-h5{
     width: 230px;
     height: 23px;
     font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+#second-h5{
+    width: 240px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+#third-h5{
+    width: 260px;
+    height: 23px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+}
+.course-details{
+    margin-top: -20px;
 }
 .course-details p a{
     color: #ED6B4F;
-    font-size: 14px;
-    margin-top: 17px;
+    font-size: 16px;
+}
+.filled{
+    color: #FFC014;
+}
+.empty{
+    color: #D1D1D1;
+}
+.ratting{
+    margin-left: 8px;
+    color: #A2A2A2;
+}
+.course-review{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    background-color: #FEE5DF;
+    width: 100px;
+    border-radius: 16px;
+}
+.brinto{
+    height: 20px;
+    width: 22px;
+    color: #ED6B4F;
+}
+.time p{
+    margin: 2px 0px;
+    color: #ED6B4F;
 }
